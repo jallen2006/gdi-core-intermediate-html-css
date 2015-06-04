@@ -7,7 +7,7 @@ pre.massive {
 }
 pre.massive code {
   width: 900px;
-  max-height: 500px;
+  max-height: 400px;
   font-size:90%;
 }
 
@@ -110,6 +110,28 @@ li.opera {
 .attribute-selectors img[src$=".jpg"] {
   border: solid 5px red;
 }
+img[src$=".jpg"] {
+  max-width: 500px;
+  max-height: 400px;
+}
+img[src$=".jpeg"] {
+  max-width: 500px;
+  max-height: 400px;
+}
+img[src$=".png"] {
+  max-width: 500px;
+  max-height: 400px;
+}
+img[src$=".gif"] {
+  max-width: 500px;
+  max-height: 400px;
+}
+img[src$=".svg"] {
+  max-width: 500px;
+  max-height: 400px;
+}
+
+
 
 /******************************
 * Class 2 Nth-child pseudo-selectors
